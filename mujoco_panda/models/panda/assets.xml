@@ -13,6 +13,7 @@
         <mesh name="link7_collision" file="meshes/collision/link7.stl"/>
         <mesh name="hand_collision" file="meshes/collision/hand.stl"/>
         <mesh name="finger_collision" file="meshes/collision/finger.stl" scale='1.75 1.0 1.75'/>
+        <mesh name="finger_small_collision" file="meshes/collision/finger_small.stl" scale='1.0 1.0 1.0'/>
         <mesh name="link0_visual" file="meshes/visual/link0.stl"/>
         <mesh name="link1_visual" file="meshes/visual/link1.stl"/>
         <mesh name="link2_visual" file="meshes/visual/link2.stl"/>
@@ -23,6 +24,7 @@
         <mesh name="link7_visual" file="meshes/visual/link7.stl"/>
         <mesh name="hand_visual" file="meshes/visual/hand.stl"/>
         <mesh name="finger_visual" file="meshes/collision/finger.stl" scale='1.75 1.0 1.75'/>
+        <mesh name="finger_small_visual" file="meshes/collision/finger_small.stl" scale='1.0 1.0 1.0'/>
     </asset>
     <default>
         <default class="panda">
