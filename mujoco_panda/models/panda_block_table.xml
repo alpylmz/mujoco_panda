@@ -20,13 +20,205 @@
     </option>
 
     <worldbody>
-        <include file="panda/arm_with_block.xml"/>
-        <body name="table1" pos="0.4 -0.3 0.5">
-            <geom name="table1_geom" class="block_collision" size=".3 0.3 0.01" rgba="0.96 0.85 0.76 1" friction="0.2 0.005 0.0001" mass="20" type="box"/>
-        </body>
-        <body name="table2" pos="0.4 0.3 0.5">
-            <geom name="table2_geom" class="block_collision" size=".3 0.3 0.01" rgba="0.8 0.4 0.3 1" friction="2.5 0.005 0.0001" mass="20" type="box"/>
-        </body>
+        <include file="panda/arm_with_gripper.xml"/>
+    <body name="table0" pos="0.40 -0.40 0.01">
+        <geom name="table0_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table1" pos="0.40 -0.30 0.01">
+        <geom name="table1_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table2" pos="0.40 -0.20 0.01">
+        <geom name="table2_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table3" pos="0.40 -0.10 0.01">
+        <geom name="table3_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table4" pos="0.40 0.00 0.01">
+        <geom name="table4_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table5" pos="0.40 0.10 0.01">
+        <geom name="table5_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table6" pos="0.40 0.20 0.01">
+        <geom name="table6_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table7" pos="0.40 0.30 0.01">
+        <geom name="table7_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table8" pos="0.50 -0.40 0.01">
+        <geom name="table8_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table9" pos="0.50 -0.30 0.01">
+        <geom name="table9_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table10" pos="0.50 -0.20 0.01">
+        <geom name="table10_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table11" pos="0.50 -0.10 0.01">
+        <geom name="table11_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table12" pos="0.50 0.00 0.01">
+        <geom name="table12_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table13" pos="0.50 0.10 0.01">
+        <geom name="table13_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table14" pos="0.50 0.20 0.01">
+        <geom name="table14_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table15" pos="0.50 0.30 0.01">
+        <geom name="table15_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table16" pos="0.60 -0.40 0.01">
+        <geom name="table16_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table17" pos="0.60 -0.30 0.01">
+        <geom name="table17_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table18" pos="0.60 -0.20 0.01">
+        <geom name="table18_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table19" pos="0.60 -0.10 0.01">
+        <geom name="table19_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table20" pos="0.60 0.00 0.01">
+        <geom name="table20_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table21" pos="0.60 0.10 0.01">
+        <geom name="table21_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table22" pos="0.60 0.20 0.01">
+        <geom name="table22_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table23" pos="0.60 0.30 0.01">
+        <geom name="table23_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table24" pos="0.70 -0.40 0.01">
+        <geom name="table24_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table25" pos="0.70 -0.30 0.01">
+        <geom name="table25_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table26" pos="0.70 -0.20 0.01">
+        <geom name="table26_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table27" pos="0.70 -0.10 0.01">
+        <geom name="table27_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table28" pos="0.70 0.00 0.01">
+        <geom name="table28_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table29" pos="0.70 0.10 0.01">
+        <geom name="table29_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table30" pos="0.70 0.20 0.01">
+        <geom name="table30_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table31" pos="0.70 0.30 0.01">
+        <geom name="table31_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table32" pos="0.80 -0.40 0.01">
+        <geom name="table32_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table33" pos="0.80 -0.30 0.01">
+        <geom name="table33_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table34" pos="0.80 -0.20 0.01">
+        <geom name="table34_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table35" pos="0.80 -0.10 0.01">
+        <geom name="table35_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table36" pos="0.80 0.00 0.01">
+        <geom name="table36_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table37" pos="0.80 0.10 0.01">
+        <geom name="table37_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table38" pos="0.80 0.20 0.01">
+        <geom name="table38_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table39" pos="0.80 0.30 0.01">
+        <geom name="table39_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table40" pos="0.90 -0.40 0.01">
+        <geom name="table40_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table41" pos="0.90 -0.30 0.01">
+        <geom name="table41_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table42" pos="0.90 -0.20 0.01">
+        <geom name="table42_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table43" pos="0.90 -0.10 0.01">
+        <geom name="table43_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table44" pos="0.90 0.00 0.01">
+        <geom name="table44_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table45" pos="0.90 0.10 0.01">
+        <geom name="table45_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table46" pos="0.90 0.20 0.01">
+        <geom name="table46_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table47" pos="0.90 0.30 0.01">
+        <geom name="table47_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table48" pos="1.00 -0.40 0.01">
+        <geom name="table48_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table49" pos="1.00 -0.30 0.01">
+        <geom name="table49_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table50" pos="1.00 -0.20 0.01">
+        <geom name="table50_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table51" pos="1.00 -0.10 0.01">
+        <geom name="table51_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table52" pos="1.00 0.00 0.01">
+        <geom name="table52_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table53" pos="1.00 0.10 0.01">
+        <geom name="table53_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table54" pos="1.00 0.20 0.01">
+        <geom name="table54_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table55" pos="1.00 0.30 0.01">
+        <geom name="table55_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table56" pos="1.10 -0.40 0.01">
+        <geom name="table56_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table57" pos="1.10 -0.30 0.01">
+        <geom name="table57_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table58" pos="1.10 -0.20 0.01">
+        <geom name="table58_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table59" pos="1.10 -0.10 0.01">
+        <geom name="table59_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table60" pos="1.10 0.00 0.01">
+        <geom name="table60_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table61" pos="1.10 0.10 0.01">
+        <geom name="table61_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table62" pos="1.10 0.20 0.01">
+        <geom name="table62_geom" class="block_collision" size =".05 .05 0.01" rgba="255 255 255 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="table63" pos="1.10 0.30 0.01">
+        <geom name="table63_geom" class="block_collision" size =".05 .05 0.01" rgba="0 0 0 1" friction="2.5 0.005 0.0001" mass = "20" type="box"/>
+    </body>
+    <body name="kutu1" pos="0.5 -0.3 0.6">
+        <geom name="kutu1_geom" class="block_collision" size =".025 .025 0.02" rgba="128 128 0 1" friction="2.5 0.005 0.0001" mass = "0.0001" type="box"/>
+    </body>
+
+
+
     </worldbody>
 
     <actuator>
