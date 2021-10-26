@@ -46,6 +46,7 @@
                                     <joint name="panda_joint7" range="-2.8973 2.8973" frictionloss="0.5"/>
                                     <geom class="visual" mesh="link7_visual"/>
                                     <geom class="collision" mesh="link7_collision"/>
+                                    <camera name="main1" mode="fixed" target="panda_link6" pos="0.0 0.0 0.3" fovy="60" zaxis="0 0 -1"/>
 
                                     <site name='ee_site' pos='0 0 0.107' size="0.005, 0.005, 0.005" euler='0 0 -1.57'/>
                                     <include file="panda/gripper.xml"/>
